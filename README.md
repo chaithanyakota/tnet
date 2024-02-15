@@ -13,6 +13,11 @@ Where $`z`$ is input.
 ## Stochastic Gradient Descent
 [Stochastic Gradient Descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent) is used to train the neural network.
 
+$`w_1 \gets w_1 - η \frac{∂L}{∂w_1}`$
+
+$`η`$ is a constant called the learning rate that controls how fast we train.
+
+
 ## Mean Sqared Error (MSE)
 The [Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error) is used as a metric to determine the model's performance. It quantifies the average squared difference between the predicted values and the true labels. 
 Lower MSE values indicate a better fit of the model to the data.
